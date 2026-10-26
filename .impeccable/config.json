@@ -11,6 +11,15 @@
         ],
         "createdAt": "2026-10-26T11:15:20.184Z",
         "reason": "assistant judgment: h1 is roman; only the single accent word 'trusted' is italic, heritage serif suits a 1950 firm"
+      },
+      {
+        "rule": "marquee",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-26T11:44:58.872Z",
+        "reason": "user requested a repeating logo shine; .card__shine is a decorative light overlay, not scrolling content"
       }
     ]
   }
