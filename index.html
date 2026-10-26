@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nakhuda Travel, Surat | Tours &amp; Travel Since 1950</title>
+  <meta name="description" content="E S Nakhuda Travel Agent, established in Surat in 1950. More than 70 years of trusted tours and travel services.">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nakhuda Travel, Surat">
+  <meta property="og:description" content="Trusted tours and travel services in Surat since 1950.">
+  <meta property="og:image" content="assets/og-image.jpg">
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Decorative background: dot grid, soft colour washes, flight path with a moving plane -->
+  <div class="bg" aria-hidden="true">
+    <div class="bg__dots"></div>
+    <div class="bg__wash bg__wash--navy"></div>
+    <div class="bg__wash bg__wash--gold"></div>
+    <svg class="bg__route" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+      <path id="route" d="M -60 900 C 380 880, 640 840, 860 780 S 1320 700, 1520 520" />
+      <g class="bg__plane">
+        <!-- plane drawn pointing right, centred on the route -->
+        <path d="M-11 -2.2h7.5l-4.8-7.3h3l7.6 7.3h6.2a2.2 2.2 0 0 1 0 4.4h-6.2l-7.6 7.3h-3l4.8-7.3h-7.5l-2.6 3h-2.4l1.7-5.2-1.7-5.2h2.4z"/>
+        <animateMotion dur="11s" begin="0s" repeatCount="indefinite" rotate="auto"
+                       keyPoints="0;1" keyTimes="0;1" calcMode="spline" keySplines="0.45 0 0.2 1">
+          <mpath href="#route"/>
+        </animateMotion>
+      </g>
+    </svg>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="./">
+      <img src="assets/favicon.png" width="36" height="36" alt="">
+      <span>Nakhuda Travel</span>
+    </a>
+    <span class="topbar__since">Est. 1950 &middot; Surat</span>
+  </header>
+
+  <main class="hero">
+    <section class="hero__text">
+      <h1 class="headline">Seven decades of <em>trusted</em> travel.</h1>
+
+      <p class="intro">
+        Established in Surat in 1950, E&nbsp;S&nbsp;Nakhuda Travel Agent has served travellers
+        for more than 70 years across tours and travel services. Generations of families and
+        businesses have relied on our prompt, personal service, and we remain committed to it today.
+      </p>
+
+      <div class="actions">
+        <a class="btn btn--primary" href="tel:+919824166222">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>
+          Call us
+        </a>
+        <a class="btn btn--ghost" href="https://wa.me/919824166222" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .78.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.77.96-.14.17-.28.19-.53.06a6.7 6.7 0 0 1-3.32-2.9c-.25-.43.25-.4.71-1.33.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 0 0-.65.3 2.7 2.7 0 0 0-.85 2.02 4.7 4.7 0 0 0 .99 2.5 10.8 10.8 0 0 0 4.14 3.66c1.54.67 2.15.73 2.92.61.47-.07 1.45-.59 1.65-1.17.2-.57.2-1.06.14-1.17-.06-.1-.22-.16-.47-.28z"/></svg>
+          Chat on WhatsApp
+        </a>
+      </div>
+
+      <dl class="facts">
+        <div><dt>1950</dt><dd>Established</dd></div>
+        <div><dt>70+</dt><dd>Years of service</dd></div>
+        <div><dt>Surat</dt><dd>Gujarat, India</dd></div>
+      </dl>
+    </section>
+
+    <figure class="card">
+      <picture>
+        <source srcset="assets/logo.webp" type="image/webp">
+        <img src="assets/logo.jpg" width="1560" height="555"
+             alt="Nakhuda Travel, Surat. Your trusted travel partner.">
+      </picture>
+      <span class="card__shine" aria-hidden="true"></span>
+      <figcaption class="card__caption">A new website is on its way</figcaption>
+    </figure>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> E S Nakhuda Travel Agent, Surat. All rights reserved.</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
